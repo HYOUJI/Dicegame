@@ -7,15 +7,15 @@
 <body>
 	<h3>Dice Game</h3>
 	<form action="/dicegame/startDiceGame" method="post">
-	<input type="text" name="playerId"/>
-	<input type="submit" name="play" value="Play"/><br/>
+		<input type="text" name="playerId"/>
+		<input type="submit" name="play" value="Play"/><br/>
 	</form>
 	
-	<form action="/dicegame/configureGame" method="post">
-	<input type="button" name="configure" value="Configure"/>
+	<form action="/dicegame/configure">
+		<button type=submit>configure</button>
+	</form>
+	
 	<input type="button" name="exit" value="Exit" 
 	onclick="self.close()"/>
-	</form>
-
 </body>
 </html>

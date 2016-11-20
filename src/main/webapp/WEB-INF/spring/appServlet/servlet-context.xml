@@ -27,6 +27,7 @@
 	<beans:bean id="scores" class="youji.hansung.dicegame.model.Scores"/>
 	<beans:bean id="diceService" class="youji.hansung.dicegame.service.DiceService"/>
 	<beans:bean id="scoreService" class="youji.hansung.dicegame.service.ScoreService"/>
+	<beans:bean id="configureService" class="youji.hansung.dicegame.service.ConfigureService"/>
 	<beans:bean id="scoreDAO" class="youji.hansung.dicegame.dao.ScoreDAO"/>
 	
 	<beans:bean id="playerDice" class="youji.hansung.dicegame.model.Dice"/>
